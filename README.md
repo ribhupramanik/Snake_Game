@@ -25,23 +25,28 @@ Ensure you have Python installed on your machine. This project has been tested w
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/your-username/snake-game.git
+   ```
 
 2.Navigate to the project directory:
-  cd snake-game
+  ```
+   cd snake-game
+  ```
 
 3.Install required dependencies (if any):
+```
   pip install -r requirements.txt
   Note: The game only requires Python's built-in turtle and random modules, which are pre-installed.
-
+```
 How to Play
 1. Run the game:
+```
   python main.py
-
+```
 2.Use the following keys to control the snake:
-  Up Arrow: Move Up
-  Down Arrow: Move Down
-  Left Arrow: Move Left
-  Right Arrow: Move Right
+  Up Arrow ⬆️: Move Up
+  Down Arrow ⬇️: Move Down
+  Left Arrow ⬅️: Move Left
+  Right Arrow ➡️: Move Right
 
 3. Avoid collisions with walls and the snake's tail to keep playing.
 
